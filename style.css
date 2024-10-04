@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+:root {
+    --main-blue: #283747;
+    --header:  #1c2833;
+    --main-white: #b3b6b7;
+    --text-color: white;
+}
+
+header > ul {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--header);
+    position: fixed;
+    align-items: center;
+    color: white;
+    
+    
+}
+
+header > ul:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: blueviolet;
+    height: 500vh;
+    background-color: var(--main-white);
+    font-size: 1rem;
+    
+
+}
+
+
+
+
+.main-box {
+    width: 100vw;
+    height: 75vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 2% 5% 0% 5%;
+    
+    
+}
+
+.title-left-box {
+    font-size: 1.5rem;
+    width: 50%;
+    background-color: var(--main-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    color: white;
+    margin-top: 3%;
+
+}
+
+
+
+.image-right-box {
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+
+}
+
+.image-right-box > img {
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.content {
+    font-size: 1.3rem;
+    margin: 3% 5% 5% 5%;
+    /* border: 2px solid red; */
+   
+}
+
+ .fast-acess {
+    height: 100vh;
+    width: 18vw;
+    background-color: white;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+
+} 
+
+.fast-acess > ol {
+    margin-left: 10%;
+    
+}   
+
+.title-summary {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+summary {
+    /* border: 2px solid orange; */
+    margin-top: 5%;
+    /* border: 2px solid black; */
+    
+
+}
+
+.links-summary {
+    height: 50vh;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */ 
+    
+}
+
+.links-summary > a {
+    height: auto;
+    width: 30%;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+
+/* a::before {
+    content: icon?????????;
+} */
+
+p {
+    margin: 5% 0% 5% 0%;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content > h1 {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-blue);
+    color: var(--text-color);
+    margin-top: 10%;
+}
