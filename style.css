@@ -93,22 +93,7 @@ body {
    
 }
 
- .fast-acess {
-    height: 100vh;
-    width: 18vw;
-    background-color: white;
-    border: 2px solid black;
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
 
-} 
-
-.fast-acess > ol {
-    margin-left: 10%;
-    
-}   
 
 .title-summary {
     /* border: 2px solid black; */
